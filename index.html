@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <form>
+        <label>Width:</label><input name="height" type="number" placeholder="height" max="50" min="15" />
+        <label>Height:</label><input name="width" type="number" placeholder="width" max="50" min="15" />
+    </form>
+    <div class="instruction">Click to select tile // Click and hold canvas to paint // Double-Click to remove tile</div>
+    <div class="selection" id="selection-id">
+        <div id="wall">wall</div>
+        <div id="floor">floor</div>
+        <div id="key">key</div>
+        <div id="door">door</div>
+        <div id="exit">exit</div>
+        <div id="enemy">enemy</div>
+        <div id="player">player</div>
+        <div id="gold">gold</div>
+        <div id="gold-big">gold-big</div>
+        <div id="gem">gem</div>
+    </div>
+    <div class="button-container">
+        <button id="download">Save Text File</button>
+    </div>
+    <script defer src="index.js"></script>
+</body>
+
+</html>
